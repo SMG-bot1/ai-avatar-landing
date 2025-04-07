@@ -22,8 +22,10 @@ export default function AILanding() {
             <li>Подходит для Telegram, Instagram, Discord</li>
           </ul>
           <div className="text-center">
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white text-lg px-6 py-2 rounded-full">
-              Заказать в Telegram
+            <Button asChild className="bg-green-500 hover:bg-green-600 text-white text-lg px-6 py-2 rounded-full">
+              <a href="https://t.me/CyberAvatarKZ_bot" target="_blank" rel="noopener noreferrer">
+                Заказать через Telegram-бота
+              </a>
             </Button>
           </div>
         </CardContent>
